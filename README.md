@@ -24,6 +24,11 @@ Last updated: **2026-08-26**
 
 The temporary EC2 instance must not be terminated until the archive checksum is valid and the S3 object has been verified.
 
+## Project documentation
+
+- [Success criteria](docs/success-criteria.md) — measurable acceptance gates and required evidence for every pipeline stage.
+- [Data contract](docs/data-contract.md) — schemas, field rules, controlled vocabularies, S3 layouts, versioning, and compatibility policy.
+
 ## Target architecture
 
 ```text
